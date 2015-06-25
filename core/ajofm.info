@@ -1,0 +1,20 @@
+; $Id: ajofm.info.v 1.0 2015/06/21 1:35pm vpandichi Explorer 6
+name = AJOFM
+package = AJOFM
+version = VERSION
+core = 7.x
+engine = phptemplate
+
+stylesheets[all][] = template.css
+
+regions[header_logo] = Header Logo
+regions[header_content] = Header Content
+regions[navigation] = Navigation
+regions[slideshow] = Slideshow
+regions[content] = Content
+regions[sidebar_left] = Sidebar Left
+regions[sidebar_right] = Sidebar Right
+regions[sub_footer] = Sub Footer
+regions[footer] = Footer
+regions[help] = Help
+regions[inline] = Inline

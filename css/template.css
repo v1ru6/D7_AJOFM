@@ -1,0 +1,117 @@
+* {margin: 0;padding: 0;font-family: "Trebuchet MS", Verdana, Arial, sans-serif;}
+
+/*
+***********************
+* =main styles for wrappers
+***********************
+*/
+
+#header-wrap,
+#nav-wrap,
+#sub-footer-wrap,
+#footer-wrap {float:left;width:100%;clear:both;}
+
+header,
+nav,
+#slideshow,
+#content-wrap,
+#sub-footer,
+footer {width:80%;margin:auto;}
+
+/*
+***********************
+* =wrappers
+***********************
+*/
+
+#root {background:#d6edf9;overflow:hidden;}
+#header-wrap {background: url(files/images/bg-header.png) repeat-x;border-bottom: 1px solid #292e2d;height:100px;}
+#nav-wrap {background: #054ba4;border-top: 1px solid #4891ee;border-bottom: 1px solid #292e2d;}
+#content-wrap {margin-top:19px;margin-bottom:20px;background:url(files/images/bg-content.gif) repeat;border:2px solid #00354E;box-shadow: 1px 2px 4px #505957;height:1024px;overflow: hidden;}
+#footer-wrap {background:#0A6BE7;}
+
+/*
+***********************
+* =navigation
+***********************
+*/
+
+nav a {text-decoration: none;}
+
+/*
+***********************
+* =slider
+***********************
+*/
+
+#slideshow {margin-top: 147px;margin-bottom: 292px;margin-left: 10%;position: relative;}
+div.field-content img {border-radius:10px 0px 10px 0px;width:100%;box-shadow: 1px 1px 2px 1px;color:#73AAF0;}
+
+/*
+***********************
+* =slider title and pager
+***********************
+*/
+
+.view-front-page-slideshow, .views-field-title {position:absolute;bottom:231px;left:78.199%;font-size:20px;background-color: #fff;opacity: 0.5;padding:10px 20px 10px 5px;border-radius: 10px 0px 10px 0px;width:210px;}
+.views-field-title a {color:#000;text-decoration: none;font-family: "Trebuchet";letter-spacing: 1px;font-weight: bold;margin-left: 30px;}
+.views-field-counter {float: left;padding:10px 5px;background: url(/sites/d7_ajofm/sites/all/themes/ajofm/files/images/bg-button-inactive.png) top no-repeat;margin-right: 10px;}
+.active .views-field-counter {background: url(/sites/d7_ajofm/sites/all/themes/ajofm/files/images/bg-button-active.png) top no-repeat;}
+.views-content-counter {display: none;}
+.views-slideshow-controls-top {margin-left:46%;}
+
+/*
+***********************
+* =sidebar-left
+***********************
+*/
+
+#sidebar-left {float:left;width:20%;background:#73AAF0;height:100%;}
+#sidebar-left li {list-style-type: none;font-size: 10pt;margin-top:5px;margin-left:5px;}
+#sidebar-left a {text-decoration: none;color:#052348;}
+div#organigrama, 
+div#ROF, 
+div#buget11, 
+div#buget12,
+div#program,
+div#audiente, 
+div#venituri {padding:5px;margin-left:27px;margin-top:-27px;letter-spacing:.5px;}
+div#organigrama:hover, 
+div#ROF:hover, 
+div#buget11:hover, 
+div#buget12:hover,
+div#program:hover,
+div#audiente:hover,
+div#venituri:hover {background-color:#2079EC;}
+
+.sb_images {padding:5px;width:90%;margin-left: 2.5%;}
+.sb_images:hover {border-top: 4px solid #2079EC;border-bottom: 4px solid #2079EC;}
+
+/*
+***********************
+* =content
+***********************
+*/
+
+#content-right {float:left;margin-top:10px;width:80%;}
+#content-right p, #content-right h1, #content-right h2, #content-right h3, #content-right h4, #content-right h5, ol.despre {color:#90b5c8; margin:0 5%;text-align: justify;font-weight: normal;}
+#content-right h4 {padding: 2% 0; font-style: italic;font-weight: bold;}
+
+/*
+***********************
+* =footer
+***********************
+*/
+
+footer #anofm {margin-left: 16%; margin-top: 7px;}
+footer #cnas, footer #cnpas {padding-bottom: 10px;}
+footer #cnfpa {padding-bottom: 29px;}
+#cnas, #cnpas, #cnfpa {margin-left: 100px;}
+footer span {font-size:9pt;color:#d6edf9;margin-left: 40%;}
+
+/*
+***********************
+* =misc
+***********************
+*/
+
